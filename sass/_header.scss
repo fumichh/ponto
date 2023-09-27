@@ -1,0 +1,71 @@
+.header{
+    background-image: url(/img/back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+
+    &__main-a{
+        
+font-family: 'Gilroy-Bold';
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+    }
+
+    &__a{
+        font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+    }
+
+ 
+    &__h1{
+        font-family: 'Gilroy-Bold';
+        font-size: 80px;
+        line-height: 130%;
+        /* or 104px */
+        
+        text-align: center;
+        letter-spacing: -0.01em;
+        text-transform: capitalize;
+        
+        color: #FFFFFF;
+        @media screen and (max-width:480px){
+            font-size: 60px;
+        }
+    }
+
+    &__h3{
+        font-family: 'Gilroy-Regular';
+        font-size: 24px;
+        line-height: 160%;
+        /* or 38px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        opacity: 0.8;
+    }
+
+    &__inp{
+padding: 15px 180px 15px 20px;
+        background: rgba(255, 255, 255, 0.15);
+        border: 0.861538px solid rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        
+        border-radius: 42px;
+        background: url(/img/search.png) no-repeat 334px 3px;
+        background-size: auto 90%;
+    }
+
+  
+}

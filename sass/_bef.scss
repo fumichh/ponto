@@ -1,0 +1,26 @@
+.bef {
+    padding-top: 200px;
+
+    &__p {
+        font-family: 'Gilroy-SemiBold';
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.175em;
+        text-transform: uppercase;
+
+        color: #E58411;
+    }
+
+    &__h2 {
+        font-family: 'Gilroy-Bold';
+        font-size: 42px;
+        line-height: 49px;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #1E1E1E;
+    }
+
+    
+}

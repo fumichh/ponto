@@ -1,0 +1,48 @@
+.after {
+    @media screen and (max-width:480px) {
+        text-align: center;
+    }
+padding-top: 20px;
+    &__h1 {
+        font-family: 'Gilroy-Bold';
+font-size: 42px;
+line-height: 49px;
+
+color: #1E1E1E;
+
+
+    }
+
+    &__h3 {
+        font-family: 'Gilroy-Bold';
+font-size: 24px;
+line-height: 28px;
+
+color: #1E1E1E;
+
+opacity: 0.9;
+    }
+
+    &__p {
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        line-height: 185%;
+        /* or 30px */
+
+
+        color: #1E1E1E;
+
+        opacity: 0.8;
+    }
+
+    &__a {
+
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        line-height: 185%;
+        /* identical to box height, or 26px */
+
+
+        color: #E58411;
+    }
+}

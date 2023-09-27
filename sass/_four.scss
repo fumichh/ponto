@@ -1,0 +1,74 @@
+.four {
+    padding-top: 100px;
+    @media screen and (max-width:480px) {
+        background-image: url(/img/four.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    &__img {
+        position: relative;
+        right: 95px;
+      @media screen and (max-width:480px) {
+        position: fixed;
+        background-image: none;
+      }
+    }
+
+  
+    &__block2{
+        @media screen and (max-width:480px) {
+           text-align: center;
+        }
+    }
+    &__p1 {
+        padding-top: 30px;
+        font-family: 'Gilroy-SemiBold';
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.175em;
+        text-transform: uppercase;
+
+        color: #E58411;
+    }
+
+    &__h2 {
+        padding-top: 20px;
+        font-family: 'Gilroy-Bold';
+        font-size: 42px;
+        line-height: 49px;
+        text-transform: capitalize;
+
+        color: #1E1E1E;
+    }
+
+    &__p2 {
+        padding-top: 20px;
+        font-family: 'Gilroy-Regular';
+        font-size: 18px;
+        line-height: 185%;
+        /* or 33px */
+
+
+        color: #1E1E1E;
+
+        opacity: 0.8;
+        
+        @media screen and (max-width:480px) {
+            color: #fafafa;
+         }
+
+    }
+
+    &__a {
+        padding-top: 25px;
+        text-decoration: none;
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        line-height: 185%;
+        /* identical to box height, or 26px */
+
+
+        color: #E58411;
+    }
+}

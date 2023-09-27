@@ -1,0 +1,70 @@
+.foot {
+    background: #F7F7F7;
+    padding-top: 118px;
+
+    &__p1 {
+        
+        font-family: 'Gilroy-Bold';
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+
+        color: #1E1E1E;
+        @media screen and (max-width:480px) {
+            text-align: center;
+        }
+
+    }
+
+    &__p2 {
+        padding-top: 29px;
+        font-family: 'Gilroy-Medium';
+        font-size: 15px;
+        line-height: 160%;
+        /* or 24px */
+
+
+        color: #1E1E1E;
+
+        opacity: 0.8;
+        @media screen and (max-width:480px) {
+            text-align: center;
+        }
+    }
+
+    &__ul{
+        padding-top: 20px;
+        @media screen and (max-width:480px) {
+            text-align: center;
+            padding-right: 40px;
+        }
+    }
+
+    &__a {
+       
+        text-decoration: none;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.231818px;
+
+        color: #F6973F;
+      
+    }
+
+    &__a1 {
+        text-decoration: none;
+        font-family: 'Gilroy-Medium';
+        font-size: 15px;
+        line-height: 160%;
+        /* identical to box height, or 24px */
+
+
+        color: #1E1E1E;
+
+        opacity: 0.8;
+    }
+}

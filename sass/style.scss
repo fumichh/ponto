@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+@import"_header.scss";
+@import "_after.scss";
+@import"_body.scss";
+@import"_four.scss";
+@import"_five.scss";
+@import"_bef.scss";
+@import"_foot.scss";
